@@ -1,0 +1,19 @@
+body{
+  font-family: Courier;
+}
+/* Navbar */
+a {
+  margin-bottom: 0px;
+  height: 100%;
+}
+
+nav ul li {
+  height: 100%;
+}
+.navbar-right{
+  margin-right: auto;
+}
+
+/* nav p {
+  margin-right: 0px;
+} */
