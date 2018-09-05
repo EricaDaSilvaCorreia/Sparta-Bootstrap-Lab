@@ -8,32 +8,85 @@
 
   <link rel="stylesheet" href="../CSS/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
-<script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
-<script src="../CSS/bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="../CSS/bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
 
-<link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/main.css">
 </head>
 
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <ul class="nav nav-pills">
-          <li role="presentation"><a href="../index.html">Home</a></li>
+    <div class="container-fluid">
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="../index.html">Home</a></li>
         <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link active">Joey Doe</a></p>
       </ul>
     </div>
   </nav>
-  <!--  Jumbotron -->
-  <!-- Main -->
-  <!-- Main // Cards -->
-  <!-- Container -->
-  <!-- Container//Media objects -->
-  <!-- Footer -->
+  <!--  Jumbotron : not needed on this page-->
+  <!-- Main Profile -->
+  <main class="profile">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../CSS/IMG/yoga.jpg" class="img-circle float-left" alt="..." width="200px" height="200px">
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">Name: Joey Doe</li>
+          <li class="list-group-item">Age : 35</li>
+          <li class="list-group-item">Level : Beginner</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="box">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            70%
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <table>
+        <thead>
+          <tr>
+            <th>Excersise</th>
+            <th>Duration</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yoga</td>
+            <td>1 Hr</td>
+            <td>Complete</td>
+          </tr>
+          <tr>
+            <td>Cardio</td>
+            <td>45 min</td>
+            <td>Complete</td>
+          </tr>
+          <tr>
+            <td>Core Strength Training</td>
+            <td>30 min</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<!-- Main // Cards -->
+<!-- Container -->
+<!-- Container//Media objects -->
+<!-- Footer -->
 
 </body>
 </html>
