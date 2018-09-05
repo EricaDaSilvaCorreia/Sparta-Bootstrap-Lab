@@ -1,0 +1,163 @@
+body{
+  font-family: Courier;
+}
+/* Navbar */
+a {
+  margin-bottom: 0px;
+  height: 100%;
+}
+
+nav ul li {
+  height: 100%;
+}
+.navbar-right{
+  margin-right: auto;
+}
+
+/* Jumbotron */
+
+div.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .jumbotron {
+  border-radius: 0;
+}
+
+div.jumbotron {
+  background-image: url("/CSS/IMG/yoga.jpg");
+  height: 350px;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+}
+
+div.jumbotron .text {
+  color: white;
+  font-family: courier;
+  font-size: 50px;
+  flex-direction:column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline-offset: 10px;
+  outline: 1.5px solid white;
+  background: rgba(132, 182, 179, 0.55);
+  padding-top: 40px;
+  font-weight: 100;
+}
+
+.jumbotron h1 {
+  padding-bottom: 10px;
+  font-weight: 100;
+  padding-top: -20px;
+}
+
+/* Main */
+
+/* Thumbnails */
+.row {
+  display: block;
+}
+.col-md-4 .col-sm-12 .container-fluid {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  outline: 1PX solid GREY;
+  display: block;
+  padding: 10px;
+}
+.col-md-4 .col-sm-12 .container-fluid h2 {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.col-sm-12 .container-fluid h2 {
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+.col-md-4 .col-sm-12 .container-fluid button {
+  box-sizing: border-box;
+  width: 100%;
+  color: rgba(85, 217, 209, 0.87);
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  font-size: 10px;
+  background-color: rgba(85, 217, 209, 0.87);
+}
+
+.col-md-4 .col-sm-12 .container-fluid p {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.container-fluid .box img {
+  width: 100%;
+  height: 75%;
+}
+
+.box img {
+  width: 100%;
+}
+
+.media {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  outline: 1PX solid GREY;
+  display: block;
+  padding: 10px;
+  background-color: rgba(36, 91, 74, 0.85);
+  color: white;
+}
+
+/* Profile-- */
+
+.col-md-6 img {
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.col-md-6 .list-group {
+  width: 100%;
+  display: flex;
+}
+
+.list-group .list-group-item {
+  flex-direction: column;
+}
+
+th, td {
+  padding: 34px;
+}
+
+table {
+  background-color: rgb(115, 189, 168);
+  color: white;
+}
+
+.box{
+  width: 500px;
+}
+.box .progress .progress-bar {
+  box-sizing: border-box;
+  width:100%;
+}
+
+footer {
+  background: #537d86;
+  color: white;
+  height: 25px;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
