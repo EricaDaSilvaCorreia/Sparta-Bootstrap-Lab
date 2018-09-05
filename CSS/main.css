@@ -122,6 +122,8 @@ button {
 
 .col-md-6 img {
   margin: 20px;
+  justify-content: center;
+  display: flex;
 }
 
 .col-md-6 .list-group {
@@ -148,4 +150,14 @@ table {
 .box .progress .progress-bar {
   box-sizing: border-box;
   width:100%;
+}
+
+footer {
+  background: #537d86;
+  color: white;
+  height: 25px;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
