@@ -14,6 +14,44 @@ nav ul li {
   margin-right: auto;
 }
 
-/* nav p {
-  margin-right: 0px;
-} */
+/* Jumbotron */
+
+div.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .jumbotron {
+  border-radius: 0;
+}
+
+div.jumbotron {
+  background-image: url("/CSS/IMG/yoga.jpg");
+  height: 350px;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+}
+
+div.jumbotron .text {
+  color: white;
+  font-family: courier;
+  font-size: 50px;
+  flex-direction:column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline-offset: 10px;
+  outline: 1.5px solid white;
+  background: rgba(132, 182, 179, 0.55);
+  padding-top: 40px;
+  font-weight: 100;
+}
+
+.jumbotron h1 {
+  padding-bottom: 10px;
+  font-weight: 100;
+  padding-top: -20px;
+}
